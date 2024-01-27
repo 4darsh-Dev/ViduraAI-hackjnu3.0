@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
-from home import views
+from . import views
 urlpatterns = [
-    path("", views.index, name='home'),
+    path("api/", views.ask_vidura, name='ask_vidura'),
     
 ]
