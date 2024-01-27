@@ -1,0 +1,287 @@
+[
+    {
+        "context": "THE CONSTITUTION OF INDIA PREAMBLE WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a 1 [SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC] and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the 2 [unity and integrity of the Nation]; IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "What type of republic is India constituted as?",
+                "answers": [
+                    {
+                        "text": "SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC",
+                        "answer_start": 106
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "When was the constitution adopted?",
+                "answers": [
+                    {
+                        "text": "twenty-sixth day of November, 1949",
+                        "answer_start": 403
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "1. Name and territory of the Union.—(1) India, that is Bharat, shall be a Union of States. 1 [(2) The States and the territories thereof shall be as specified in the First Schedule.] (3) The territory of India shall comprise— (a) the territories of the States; 2 [(b) the Union territories specified in the First Schedule; and] (c) such other territories as may be acquired.",
+        "qas": [
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "What does the territory of India comprise of?",
+                "answers": [
+                    {
+                        "text": "the territories of the States; the Union territories specified in the First Schedule; and such other territories as may be acquired",
+                        "answer_start": 176
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "5. Citizenship at the commencement of the Constitution.—At the commencement of this Constitution, every person who has his domicile in the territory of India and— (a) who was born in the territory of India; or (b) either of whose parents was born in the territory of India; or (c) who has been ordinarily resident in the territory of India for not less than five years immediately preceding such commencement, shall be a citizen of India.",
+        "qas": [
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "Who shall be a citizen of India at the commencement of this Constitution?",
+                "answers": [
+                    {
+                        "text": "every person who has his domicile in the territory of India and— (a) who was born in the territory of India; or (b) either of whose parents was born in the territory of India; or (c) who has been ordinarily resident in the territory of India for not less than five years immediately preceding such commencement",
+                        "answer_start": 73
+                    }
+                ]
+            }
+        ]
+    },{
+        "context": "(a) he or either of his parents or any of his grand-parents was born in India as defined in the Government of India Act, 1935 (as originally enacted); and (b)(i) in the case where such person has so migrated before the nineteenth day of July, 1948, he has been ordinarily resident in the territory of India since the date of his migration, or (ii) in the case where such person has so migrated on or after the nineteenth day of July, 1948, he has been registered as a citizen of India by an officer appointed in that behalf by the Government of the Dominion of India on an application made by him therefor to such officer before the commencement of this Constitution in the form and manner prescribed by that Government: Provided that no person shall be so registered unless he has been resident in the territory of India for at least six months immediately preceding the date of his application.",
+        "qas": [
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "What is the criteria for a person to be registered as a citizen of India if he migrated on or after the nineteenth day of July, 1948?",
+                "answers": [
+                    {
+                        "text": "he has been registered as a citizen of India by an officer appointed in that behalf by the Government of the Dominion of India on an application made by him therefor to such officer before the commencement of this Constitution in the form and manner prescribed by that Government",
+                        "answer_start": 314
+                    }
+                ]
+            },
+            {
+                "id": "00006",
+                "is_impossible": false,
+                "question": "What is the general condition for a person to be registered as a citizen of India?",
+                "answers": [
+                    {
+                        "text": "no person shall be so registered unless he has been resident in the territory of India for at least six months immediately preceding the date of his application",
+                        "answer_start": 618
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "2\n[(5) Nothing in this article or in sub-clause (g) of clause (1) of article 19\nshall prevent the State from making any special provision, by law, for the\nadvancement of any socially and educationally backward classes of citizens or\nfor the Scheduled Castes or the Scheduled Tribes in so far as such special\nprovisions relate to their admission to educational institutions including private\neducational institutions, whether aided or unaided by the State, other than the\nminority educational institutions referred to in clause (1) of article 30.]",
+        "qas": [
+            {
+                "id": "00007",
+                "is_impossible": false,
+                "question": "What does clause (5) of article 19 allow the State to do?",
+                "answers": [
+                    {
+                        "text": "making any special provision, by law, for the\nadvancement of any socially and educationally backward classes of citizens or\nfor the Scheduled Castes or the Scheduled Tribes in so far as such special\nprovisions relate to their admission to educational institutions including private\neducational institutions",
+                        "answer_start": 95
+                    }
+                ]
+            },
+            {
+                "id": "00008",
+                "is_impossible": false,
+                "question": "What institutions does this clause apply to?",
+                "answers": [
+                    {
+                        "text": "educational institutions including private\neducational institutions, whether aided or unaided by the State, other than the\nminority educational institutions",
+                        "answer_start": 315
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "16. Equality of opportunity in matters of public employment.—(1)\nThere shall be equality of opportunity for all citizens in matters relating to\nemployment or appointment to any office under the State.\n(2) No citizen shall, on grounds only of religion, race, caste, sex, descent,\nplace of birth, residence or any of them, be ineligible for, or discriminated against\nin respect of, any employment or office under the State.",
+        "qas": [
+            {
+                "id": "00009",
+                "is_impossible": false,
+                "question": "What does article 16(1) state about public employment?",
+                "answers": [
+                    {
+                        "text": "There shall be equality of opportunity for all citizens in matters relating to\nemployment or appointment to any office under the State",
+                        "answer_start": 68
+                    }
+                ]
+            },
+            {
+                "id": "00010",
+                "is_impossible": false,
+                "question": "What grounds cannot be used to discriminate against citizens in matters of public employment according to article 16(2)?",
+                "answers": [
+                    {
+                        "text": "religion, race, caste, sex, descent,\nplace of birth, residence",
+                        "answer_start": 246
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "(2) Nothing in sub-clause (a) of clause (1) shall affect the operation of any existing law, or prevent the State from making any law, in so far as such law imposes reasonable restrictions on the exercise of the right conferred by the said sub-clause in the interests of 4 [the sovereignty and integrity of India], the security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence.",
+        "qas": [
+            {
+                "id": "00011",
+                "is_impossible": false,
+                "question": "What can the State do according to sub-clause (a) of clause (1)?",
+                "answers": [
+                    {
+                        "text": "prevent the State from making any law, in so far as such law imposes reasonable restrictions on the exercise of the right conferred by the said sub-clause in the interests of the sovereignty and integrity of India, the security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence",
+                        "answer_start": 73
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "21. Protection of life and personal liberty.—No person shall be deprived of his life or personal liberty except according to procedure established by law.",
+        "qas": [
+            {
+                "id": "00012",
+                "is_impossible": false,
+                "question": "What does article 21 state about personal liberty?",
+                "answers": [
+                    {
+                        "text": "No person shall be deprived of his life or personal liberty except according to procedure established by law",
+                        "answer_start": 45
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "22. Protection against arrest and detention in certain cases.—(1) No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest nor shall he be denied the right to consult, and to be defended by, a legal practitioner of his choice.",
+        "qas": [
+            {
+                "id": "00013",
+                "is_impossible": false,
+                "question": "What rights does a person have when arrested according to article 22?",
+                "answers": [
+                    {
+                        "text": "No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest nor shall he be denied the right to consult, and to be defended by, a legal practitioner of his choice",
+                        "answer_start": 68
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "Explanation.—In this clause, \"appropriate High Court\" means,—\n(i) in the case of the detention of a person in pursuance of an order of detention made by\nthe Government of India or an officer or authority subordinate to that Government, the High Court\nfor the Union territory of Dehli;\n(ii) in the case of the detention of a person in pursuance of an order of detention made by\nthe Government of any State (other than a Union territory), the High Court for that State; and\n(iii) in the case of the detention of a person in pursuance of an order of detention made\nby the administrator of a Union territory or an officer or authority subordinate to such\nadministrator, such High Court as may be specified by or under any law made by Parliament in\nthis behalf.\".\n44\nProvided that nothing in this sub-clause shall authorise the detention\nof any person beyond the maximum period prescribed by any law made\nby Parliament under sub-clause (b) of clause (7); or\n(b) such person is detained in accordance with the provisions of any\nlaw made by Parliament under sub-clauses (a) and (b) of clause (7).\n(5) When any person is detained in pursuance of an order made under\nany law providing for preventive detention, the authority making the order\nshall, as soon as may be, communicate to such person the grounds on which the\norder has been made and shall afford him the earliest opportunity of making a\nrepresentation against the order.\n(6) Nothing in clause (5) shall require the authority making any such\norder as is referred to in that clause to disclose facts which such authority\nconsiders to be against the public interest to disclose.\n(7) Parliament may by law prescribe—\n\n(a) the circumstances under which, and the class or classes of cases\nin which, a person may be detained for a period longer than three months\nunder any law providing for preventive detention without obtaining the\nopinion of an Advisory Board in accordance with the provisions of subclause (a) of clause (4);\n\n(b) the maximum period for which any person may in any class or\nclasses of cases be detained under any law providing for preventive\ndetention; and\n\n(c) the procedure to be followed by an Advisory Board in an",
+        "qas": [
+            {
+                "id": "00014",
+                "is_impossible": false,
+                "question": "What does the 'appropriate High Court' mean in this context?",
+                "answers": [
+                    {
+                        "text": "In the case of the detention of a person in pursuance of an order of detention made by the Government of India or an officer or authority subordinate to that Government, the High Court for the Union territory of Dehli; in the case of the detention of a person in pursuance of an order of detention made by the Government of any State (other than a Union territory), the High Court for that State; and in the case of the detention of a person in pursuance of an order of detention made by the administrator of a Union territory or an officer or authority subordinate to such administrator, such High Court as may be specified by or under any law made by Parliament in this behalf.",
+                        "answer_start": 35
+                    }
+                ]
+            },
+            {
+                "id": "00015",
+                "is_impossible": false,
+                "question": "What does clause (5) state about a person detained under preventive detention?",
+                "answers": [
+                    {
+                        "text": "When any person is detained in pursuance of an order made under any law providing for preventive detention, the authority making the order shall, as soon as may be, communicate to such person the grounds on which the order has been made and shall afford him the earliest opportunity of making a representation against the order.",
+                        "answer_start": 1047
+                    }
+                ]
+            },
+            {
+                "id": "00016",
+                "is_impossible": false,
+                "question": "What can Parliament prescribe according to clause (7)?",
+                "answers": [
+                    {
+                        "text": "Parliament may by law prescribe the circumstances under which, and the class or classes of cases in which, a person may be detained for a period longer than three months under any law providing for preventive detention without obtaining the opinion of an Advisory Board in accordance with the provisions of subclause (a) of clause (4); the maximum period for which any person may in any class or classes of cases be detained under any law providing for preventive detention; and the procedure to be followed by an Advisory Board.",
+                        "answer_start": 1574
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "23. Prohibition of traffic in human beings and forced labour.—(1) Traffic in human beings and begar and other similar forms of forced labour are prohibited and any contravention of this provision shall be an offence punishable in accordance with law.",
+        "qas": [
+            {
+                "id": "00017",
+                "is_impossible": false,
+                "question": "What does article 23 state about traffic in human beings and forced labour?",
+                "answers": [
+                    {
+                        "text": "Traffic in human beings and begar and other similar forms of forced labour are prohibited and any contravention of this provision shall be an offence punishable in accordance with law",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "24. Prohibition of employment of children in factories, etc.—No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment.",
+        "qas": [
+            {
+                "id": "00018",
+                "is_impossible": false,
+                "question": "What does article 24 state about employment of children?",
+                "answers": [
+                    {
+                        "text": "No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment",
+                        "answer_start": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "25. Freedom of conscience and free profession, practice and propagation of religion.—(1) Subject to public order, morality and health and to the other provisions of this Part, all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion.\n(2) Nothing in this article shall affect the operation of any existing law or prevent the State from making any law—\n(a) regulating or restricting any economic, financial, political or other secular activity which may be associated with religious practice;\n(b) providing for social welfare and reform or the throwing open of Hindu religious institutions of a public character to all classes and sections of Hindus.",
+        "qas": [
+            {
+                "id": "00019",
+                "is_impossible": false,
+                "question": "What does article 25 state about freedom of conscience and free profession, practice and propagation of religion?",
+                "answers": [
+                    {
+                        "text": "Subject to public order, morality and health and to the other provisions of this Part, all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion",
+                        "answer_start": 0
+                    }
+                ]
+            },
+            {
+                "id": "00020",
+                "is_impossible": false,
+                "question": "What does clause (2) state about freedom of conscience and free profession, practice and propagation of religion?",
+                "answers": [
+                    {
+                        "text": "Nothing in this article shall affect the operation of any existing law or prevent the State from making any law regulating or restricting any economic, financial, political or other secular activity which may be associated with religious practice; providing for social welfare and reform or the throwing open of Hindu religious institutions of a public character to all classes and sections of Hindus",
+                        "answer_start": 157
+                    }
+                ]
+            }
+        ]
+    }
+    
+]

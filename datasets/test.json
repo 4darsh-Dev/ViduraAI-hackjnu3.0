@@ -1,0 +1,181 @@
+[
+  {
+    "context": "THE CONSTITUTION OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation.",
+    "qas": [
+      {
+        "id": "00001",
+        "is_impossible": false,
+        "question": "What does the Constitution of India secure to all its citizens?",
+        "answers": [
+          {
+            "text": "JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation.",
+            "answer_start": 116
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "00002",
+    "is_impossible": false,
+    "question": "Into what does the Constitution of India constitute India?",
+    "answers": [
+      {
+        "text": "SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC",
+        "answer_start": 76
+      }
+    ]
+  },
+  {
+    "context": "Rights of citizenship of certain persons who have migrated to India from Pakistan. A person who has migrated to the territory of India from the territory now included in Pakistan shall be deemed to be a citizen of India.",
+    "qas": [
+      {
+        "id": "00003",
+        "is_impossible": false,
+        "question": "Who shall be deemed to be a citizen of India?",
+        "answers": [
+          {
+            "text": "A person who has migrated to the territory of India from the territory now included in Pakistan",
+            "answer_start": 76
+          }
+        ]
+      },
+      {
+        "id": "00004",
+        "is_impossible": true,
+        "question": "What is the capital of India?",
+        "answers": []
+      }
+    ]
+  },
+  {
+    "context": "Nothing in this article or in clause (2) of article 29 shall prevent the State from making any special provision for the advancement of any socially and educationally backward classes of citizens or for the Scheduled Castes and the Scheduled Tribes.",
+    "qas": [
+      {
+        "id": "00005",
+        "is_impossible": false,
+        "question": "What does the State prevent from making any special provision for?",
+        "answers": [
+          {
+            "text": "advancement of any socially and educationally backward classes of citizens or for the Scheduled Castes and the Scheduled Tribes",
+            "answer_start": 96
+          }
+        ]
+      },
+      {
+        "id": "00006",
+        "is_impossible": false,
+        "question": "Which article is mentioned in the context?",
+        "answers": [
+          {
+            "text": "article 29",
+            "answer_start": 37
+          }
+        ]
+      },
+      {
+        "id": "00007",
+        "is_impossible": true,
+        "question": "What is the capital of India?",
+        "answers": []
+      }
+    ]
+  },
+  {
+    "context": "Right to Freedom. 19. Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression.",
+    "qas": [
+      {
+        "id": "00008",
+        "is_impossible": false,
+        "question": "What rights do all citizens have?",
+        "answers": [
+          {
+            "text": "the right to freedom of speech and expression",
+            "answer_start": 85
+          }
+        ]
+      },
+      {
+        "id": "00009",
+        "is_impossible": false,
+        "question": "What is the article number mentioned in the context?",
+        "answers": [
+          {
+            "text": "19",
+            "answer_start": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Protection of interests of minorities. Any section of the citizens residing in the territory of India or any part thereof having a distinct language, script or culture of its own shall have the right to conserve the same.",
+    "qas": [
+      {
+        "id": "00010",
+        "is_impossible": false,
+        "question": "What right do the citizens have?",
+        "answers": [
+          {
+            "text": "the right to conserve the same",
+            "answer_start": 127
+          }
+        ]
+      },
+      {
+        "id": "00011",
+        "is_impossible": false,
+        "question": "What is the article number mentioned in the context?",
+        "answers": [
+          {
+            "text": "29",
+            "answer_start": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Protection of interests of minorities. Any section of the citizens residing in the territory of India or any part thereof having a distinct language, script or culture of its own shall have the right to conserve the same.",
+    "qas": [
+      {
+        "id": "00012",
+        "is_impossible": false,
+        "question": "What right do the citizens have?",
+        "answers": [
+          {
+            "text": "the right to conserve the same",
+            "answer_start": 127
+          }
+        ]
+      },
+      {
+        "id": "00013",
+        "is_impossible": false,
+        "question": "What is the article number mentioned in the context?",
+        "answers": [
+          {
+            "text": "29",
+            "answer_start": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": "Protection of interests of minorities. Any section of the citizens residing in the territory of India or any part thereof having a distinct language, script or culture of its own shall have the right to conserve the same.",
+    "qas": [
+      {
+        "id": "00014",
+        "is_impossible": false,
+        "question": "What right do the citizens have?",
+        "answers": [
+          {
+            "text": "the right to conserve the same",
+            "answer_start": 127
+          }
+        ]
+      }
+    ]
+  }
+]
