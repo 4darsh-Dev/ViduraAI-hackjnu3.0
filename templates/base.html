@@ -1,0 +1,100 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ViduraAi - Laws made simpler! Legal help provider online.">
+    <meta name="keywords" content="legal help, laws, Vidura legal assitant, legal guidance, legal advice online ">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+
+    <title>Vidrua.ai | {% block title %}{% endblock title %}</title>
+
+    {% block head %}
+    <!-- Additional head elements go here -->
+    {% endblock head %}
+
+</head>
+
+
+<body>
+
+    <header>
+        <section id="navbar">
+
+            <nav>
+                <input type="checkbox" id="check">
+            <label id="check-label" for="check" class="checkbtn">
+                <i class='bx bx-menu'></i>
+               
+            </label>
+                <div class="logo">
+
+                    <h1><a href="/"><img class="logo-img" src="{% static 'img/vidura-logo.jpg' %}" 
+                        alt="ViduraAi"></a>
+
+                <h1>
+                </div>
+                <ul class=" menu-list">
+                    
+                    <li> <a class="menu-items" href="/"> <i class='bx bxs-home'></i> Home</a> </li>
+
+                    <li> <a class="menu-items" href="/about"> <i class='bx bxs-info-circle' ></i>About</a> </li>
+                    <li> <a class="menu-items" href="/services">Services</a> </li>
+                    <li> <a class="menu-items" href="/contact"> <i class='bx bxs-help-circle' ></i> Help</a></li>
+                    
+                    <li> <a  class="menu-items" href="/login">Login</a></li>
+                    <li> <a class="nav-btn" id="nav-signup" href="/signup">Sign Up</a></li>
+
+
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+
+    <main>
+        {% block main %}
+        {% endblock main %}
+    </main>
+
+    
+
+    {% comment %} <footer>
+        <div class="last-new">
+
+            <p>Get access to exclusive update...</p>
+
+            <div class="subscription-box">
+                <input id="subscription" placeholder="youremail.com" type="email">
+                <a target="_blank" href="mailto:adarsh@onionreads.com">Subscribe</a>
+            </div>
+
+
+        </div>
+
+        <div class="last-text ">
+
+            <p class="font-ss">Designed & Developed with <i id="heart" class=' bx bxs-heart'></i> Love by <span><a
+                        class="ad-link" target="_blank" href="https://adarshmaurya.onionreads.com/">Adarsh Maurya</a></span> &copy; 2023
+            </p>
+        </div>
+    </footer> {% endcomment %}
+
+    {% block script %}
+    
+    {% endblock script %}
+
+
+
+</body>
+
+</html>

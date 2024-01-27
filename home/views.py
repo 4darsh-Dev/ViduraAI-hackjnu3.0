@@ -6,4 +6,7 @@ def index(request):
     return render(request, 'index.html')
 
 
+def vidura(reuqest):
+    return render(reuqest, 'vidura.html')
+
 
