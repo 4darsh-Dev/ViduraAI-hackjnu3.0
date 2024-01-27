@@ -706,9 +706,9 @@ nav li [class="nav-btn"]:hover {
 
 footer {
 
-    height: auto;
-
-
+    height: 400px;
+    background-color: var(--sky-blue);
+    
 
 }
 
