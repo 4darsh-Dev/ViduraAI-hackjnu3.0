@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} Vidura {% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<link rel="stylesheet" href="{% static 'css/vidura.css' %}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+{% endblock head %}
+
+{% block main %}
+<!-- <h1 >Hi! Let's talk with Vidura, Your personal Legal Assistant! </h1> -->
+
+<section class="home" id="home">
+    <div class="container">
+
+        {% if user.is_authenticated  %}
+        <div class="user-intro"><b>Welcome, <span>{{user.username}}</span>  </b> <a href="/logout">Logout</a></div>
+        
+        {% else %}
+            <div class="user-intro"><b>You are not Logged In? Login or Regsiter! </b></div>
+        {% endif %}
+
+        
+    {% if error_message %}
+    <div  id="error-message" class="error-message">
+        <p> {{ error_message }} </p>
+        <div id="cross-btn" class="cross-btn">
+            <i class='bx bx-x '></i>
+        </div>
+    </div>
+
+
+    {% endif %}
+
+    <div id="cross-btn"></div>
+        
+        <div class="bot-img">
+            <img src="{% static 'img/chatbot.svg' %}" alt="Bot">
+        </div>
+        <!-- for dispalying the user chats -->
+        <div class="main-chat">
+            <div class="chat-box">
+              
+                    <ul class="message-list">
+
+                        {% for chat in chats  %}
+                        
+                        {% if chat.user == request.user %}
+                        
+                        <li class="message sent">
+                            <div class="message-text">
+                              <div class="message-sender">
+                                <b>You</b>
+                              </div>
+                              <div class="message-content">
+                                {{chat.message}}
+                              </div>
+                            </div>
+                          </li>
+                  
+                          <li class="message received">
+                            <div class="message-text">
+                              <div class="message-sender">
+                                <b>AI Chatbot</b>
+                              </div>
+                              <div class="message-content">
+                                {{chat.response}}
+                              </div>
+                            </div>
+                          </li>
+                        
+                        
+                        {% endif %}
+                        
+                        
+                        {% endfor %}
+                        
+
+                    </ul>
+
+
+            </div>
+            <div class="chat-img-box">
+
+            </div>
+
+        </div>
+        <!-- For accepting response from user in a input box -->
+        <div class="user-box">
+            <div class="us-box-ins">
+
+                <div id="chatbox" class="mess-fm">
+                    <form  class="message-form" id="chat-form" method="POST" >
+                        {% csrf_token %}
+                        <input class="message-input" name="message" id="message" required type="text" placeholder="Enter your message...">
+                    </form>
+                </div>
+                <!-- <div id="mess-btn" class="mess-btn">
+                    
+                     <button type="submit" id="input-submit">
+                      <i class='bx bx-send'></i>
+                     </button>
+                      
+                 
+
+                </div> -->
+
+                <button id="mess-btn" class="mess-btn">
+                  <i class='bx bx-send'></i>
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</section>
+{% endblock main %}
+
+{% block script %}
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/vidura.js' %}"></script>
+
+{% endblock script %}

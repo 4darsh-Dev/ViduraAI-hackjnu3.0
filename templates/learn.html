@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} Learning made fun! {% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<link rel="stylesheet" href="{% static 'css/learn.css' %}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+{% endblock head %}
+
+{% block main %}
+<!-- <h1 >Hi! Let's talk with Vidura, Your personal Legal Assistant! </h1> -->
+
+<section class="home" id="home">
+
+    <h2>What you want to learn today?</h2>
+    <div class="options-div">
+        <div class="op1">
+            <a href="/learn/fundamental-rights">
+                <img src="{% static 'img/rights.jpg' %}" alt="rights">
+                <h3>Learn about Fundamental Rights</h3>
+
+            </a>
+        </div>
+        <div class="op2">
+            <a href="/learn/constitution">
+                <img src="{% static 'img/constitution.jpg' %}" alt="constitution">
+                <h3>Learn about Constitution</h3>
+
+            </a>
+        </div>
+
+        <div class="op3">
+            <a href="/learn/indian-penal-code">
+                <img src="{% static 'img/ipc.jpg' %}" alt="ipc">
+                <h3>Learn about Indian Penal Code</h3>
+
+            </a>
+        </div>
+        <div class="op4">
+            <a href="/learn/crime">
+                <img src="{% static 'img/crime.jpg' %}" alt="crime">
+                <h3>Learn about Crime</h3>
+
+            </a>
+        </div>
+        <div class="op5">
+            <a href="/learn/indian-evidence-act">
+                <img src="{% static 'img/evidence.jpg' %}" alt="evidence">
+                <h3>Learn about Indian Evidence Act</h3>
+
+            </a>
+        </div>
+    </div>
+    
+</section>
+{% endblock main %}
+
+{% block script %}
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/vidura.js' %}"></script>
+
+{% endblock script %}

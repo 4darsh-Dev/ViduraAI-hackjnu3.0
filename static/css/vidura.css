@@ -21,7 +21,7 @@
 
 }
 .error-message p{
-    color: var(--deep-pink);
+    color: var(--sky-blue);
     font-size: 16px;
     font-family: var(--sans);
     padding:12px;
@@ -30,6 +30,11 @@
 }
 body{
     background-color: #fff;
+    background-image: none !important;
+}
+
+nav{
+    background-color: var(--sky-blue) !important;
 }
 .bot-img{
     display: inline-block;
@@ -108,7 +113,7 @@ body{
 
 }
 .user-intro span{
-    color: var(--deep-pink);
+    color: var(--sky-blue);
 
 }
 .message-sender{
@@ -117,7 +122,7 @@ body{
 }
 .message-sender b{
     font-size: 18px;
-    color: var(--deep-pink);
+    color: var(--sky-blue);
 
 
 }
@@ -154,7 +159,7 @@ body{
     color: #fff;
     font-size: 16px;
     /* float: right; */
-    background-color: var(--deep-pink);
+    background-color: var(--sky-blue);
     margin: 6px 0;
     padding: 12px 15px;
     border-radius: 25px;
@@ -202,7 +207,7 @@ body{
 .mess-fm input{
     height: 50px;
     padding: 0 8px;
-    border: 2px solid var(--deep-pink);
+    border: 2px solid var(--sky-blue);
     border-radius: 34px;
     /* width: 100%; */
     width: 30vw;
@@ -212,7 +217,7 @@ body{
 
 .mess-btn{
     display: inline-block;
-    background-color: var(--deep-pink);
+    background-color: var(--sky-blue);
     width: 50px;
     border-radius: 25px;
     display: flex;
@@ -232,7 +237,7 @@ body{
 
 .mess-btn:hover{
     cursor: pointer;
-    box-shadow: 0 0 25px var(--deep-pink);
+    box-shadow: 0 0 25px var(--sky-blue);
 }
 
 

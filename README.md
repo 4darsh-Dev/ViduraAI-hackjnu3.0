@@ -3,6 +3,11 @@
 ## Overview
 ### Vidura: Your Legal Guide
 
+<p align="center">
+<img src="https://onionreads.com/wp-content/uploads/2024/01/vidura-ai.png" alt="Vidura" width="600px">
+
+</p>
+
 In a world that is becoming increasingly complex, navigating legal matters can be a daunting task for many individuals. Vidura is a project designed to provide accessible and user-friendly legal guidance. This innovative solution is crafted to empower individuals with the knowledge and support they need to make informed decisions in the realm of law.
 
 Key Features:
