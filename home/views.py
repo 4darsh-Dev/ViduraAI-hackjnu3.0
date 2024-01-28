@@ -96,7 +96,7 @@ def signupUser(request):
         # Create the user.
         myuser = User.objects.create_user(username, email, pass1)
         myuser.save()
-        success_msg = "Your NyaySarathi account created Successfully!"
+        success_msg = "Your Vidura account created Successfully!"
         messages.success(request, success_msg )
         return render(request, 'vidura.html', {"error_message" : success_msg})
 
@@ -111,3 +111,8 @@ def signupUser(request):
 def logoutUser(request):
     auth.logout(request)
     return redirect("home")
+
+
+def fundamental_rights(request):
+    return render(request, 'fundamental_rights.html')
+

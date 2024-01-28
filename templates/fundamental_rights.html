@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} Fundamental Rights  {% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<link rel="stylesheet" href="{% static 'css/learn.css' %}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+{% endblock head %}
+
+{% block main %}
+<!-- <h1 >Hi! Let's talk with Vidura, Your personal Legal Assistant! </h1> -->
+
+<section id="intro" class="content-section">
+    <div class="vid-mainContainer">
+        <h2>Fundamental Right | Right to Equality</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-DPIKZ8WNik?si=PF__NZT7YHHmuXXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    
+    
+</section>
+{% endblock main %}
+
+{% block script %}
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/vidura.js' %}"></script>
+
+{% endblock script %}
