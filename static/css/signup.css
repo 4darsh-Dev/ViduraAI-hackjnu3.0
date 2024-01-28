@@ -34,7 +34,7 @@
 
 }
 .error-message p{
-    color: var(--deep-pink);
+    color: var(--sky-blue);
     font-size: 16px;
     font-family: var(--sans);
     padding:12px;
@@ -55,7 +55,7 @@
 
 .sub-c{
     width: 35%;
-    height: 450px;
+    height: 515px;
     background-color: white;
     color: black;
     border: 2px solid white;
@@ -133,11 +133,11 @@
 .signup-btn{
     font-size: 16px;
     width: 340px;
-    background-color:var(--deep-pink);
+    background-color:var(--sky-blue);
     height: 40px;
     color: white;
     font-weight: 600;
-    border: 2px solid var(--deep-pink);
+    border: 2px solid var(--sky-blue);
     border-radius: 25px;
     position: relative;
     top: 12px;
@@ -145,8 +145,8 @@
 }
 .signup-btn:hover{
     cursor: pointer;
-    background-color: var(--deep-pink);
-    box-shadow: 0 0 25px var(--deep-pink);
+    background-color: var(--sky-blue);
+    box-shadow: 0 0 25px var(--sky-blue);
 
 }
 .login{
@@ -230,6 +230,8 @@
     .sub-c{
         width: auto;
         margin: 0;
+        
+
     }
     .sub-c-1{
         width: auto;

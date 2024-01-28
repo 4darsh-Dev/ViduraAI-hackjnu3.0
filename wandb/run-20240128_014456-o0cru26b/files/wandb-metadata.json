@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-01-27T20:14:58.368739",
+    "startedAt": "2024-01-27T20:14:56.343330",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "f:\\backup-kali\\Hackathons\\ViduraAI\\mlmodel\\train.py",
+    "codePathLocal": "mlmodel\\train.py",
+    "codePath": "mlmodel\\train.py",
+    "git": {
+        "remote": "git@github.com:4darsh-Dev/ViduraAI-hackjnu3.0.git",
+        "commit": "d1a825716c82ffac0ae08426dbdd680247e7c314"
+    },
+    "email": "adarshmaurya9415@gmail.com",
+    "root": "F:/backup-kali/Hackathons/ViduraAI",
+    "host": "Kali",
+    "username": "4darsh-Dev",
+    "executable": "F:\\backup-kali\\Hackathons\\ViduraAI\\myenv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1910.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1910.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 151.62499618530273,
+            "used": 18.987625122070312
+        }
+    },
+    "memory": {
+        "total": 15.882301330566406
+    }
+}

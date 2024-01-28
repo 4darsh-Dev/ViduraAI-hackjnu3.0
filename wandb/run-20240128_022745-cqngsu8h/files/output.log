@@ -1,0 +1,23 @@
+
+Traceback (most recent call last):6: 100%|████████████████████████████████████████████████████████| 1/1 [00:03<00:00,  3.85s/it]
+  File "f:\backup-kali\Hackathons\ViduraAI\mlmodel\train.py", line 115, in <module>
+    model.train_model(train, eval_data=test)
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_model.py", line 452, in train_model
+    global_step, training_details = self.train(
+                                    ^^^^^^^^^^^
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_model.py", line 950, in train
+    results, _ = self.eval_model(eval_data, verbose=False, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_model.py", line 1098, in eval_model
+    all_predictions, all_nbest_json, scores_diff_json, eval_loss = self.evaluate(
+                                                                   ^^^^^^^^^^^^^^
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_model.py", line 1134, in evaluate
+    eval_dataset, examples, features = self.load_and_cache_examples(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_model.py", line 288, in load_and_cache_examples
+    examples = get_examples(examples, is_training=not evaluate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\backup-kali\Hackathons\ViduraAI\myenv\Lib\site-packages\simpletransformers\question_answering\question_answering_utils.py", line 141, in get_examples
+    context_text = paragraph["context"]
+                   ~~~~~~~~~^^^^^^^^^^^
+KeyError: 'context'

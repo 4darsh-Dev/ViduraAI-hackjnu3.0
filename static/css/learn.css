@@ -1,0 +1,26 @@
+nav{
+    background-color: var(--sky-blue) !important;
+
+}
+
+body{
+    background-image: none !important;
+
+}
+.options-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    padding: 0 2rem;
+    margin-top: 2rem;
+    
+    border-radius: 6px;
+    box-shadow: 0 0 25px gray;
+    background-color: var(--white);
+
+
+}
+

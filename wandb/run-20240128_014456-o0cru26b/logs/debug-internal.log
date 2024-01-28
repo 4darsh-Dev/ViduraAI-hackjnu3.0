@@ -1,0 +1,190 @@
+2024-01-28 01:44:56,360 INFO    StreamThr :9512 [internal.py:wandb_internal():86] W&B internal server running at pid: 9512, started at: 2024-01-28 01:44:56.360150
+2024-01-28 01:44:56,360 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: status
+2024-01-28 01:44:56,368 INFO    WriterThread:9512 [datastore.py:open_for_write():87] open: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\run-o0cru26b.wandb
+2024-01-28 01:44:56,368 DEBUG   SenderThread:9512 [sender.py:send():382] send: header
+2024-01-28 01:44:56,399 DEBUG   SenderThread:9512 [sender.py:send():382] send: run
+2024-01-28 01:44:57,818 INFO    SenderThread:9512 [dir_watcher.py:__init__():211] watching files in: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files
+2024-01-28 01:44:57,837 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: check_version
+2024-01-28 01:44:57,839 INFO    SenderThread:9512 [sender.py:_start_run_threads():1136] run started: o0cru26b with start time 1706386496.36015
+2024-01-28 01:44:57,839 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: check_version
+2024-01-28 01:44:58,355 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: run_start
+2024-01-28 01:44:58,368 DEBUG   HandlerThread:9512 [system_info.py:__init__():27] System info init
+2024-01-28 01:44:58,368 DEBUG   HandlerThread:9512 [system_info.py:__init__():42] System info init done
+2024-01-28 01:44:58,368 INFO    HandlerThread:9512 [system_monitor.py:start():194] Starting system monitor
+2024-01-28 01:44:58,368 INFO    SystemMonitor:9512 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-28 01:44:58,368 INFO    HandlerThread:9512 [system_monitor.py:probe():214] Collecting system info
+2024-01-28 01:44:58,368 DEBUG   HandlerThread:9512 [system_info.py:probe():151] Probing system
+2024-01-28 01:44:58,368 INFO    SystemMonitor:9512 [interfaces.py:start():190] Started cpu monitoring
+2024-01-28 01:44:58,368 INFO    SystemMonitor:9512 [interfaces.py:start():190] Started disk monitoring
+2024-01-28 01:44:58,386 INFO    SystemMonitor:9512 [interfaces.py:start():190] Started memory monitoring
+2024-01-28 01:44:58,391 INFO    SystemMonitor:9512 [interfaces.py:start():190] Started network monitoring
+2024-01-28 01:44:58,391 DEBUG   HandlerThread:9512 [system_info.py:_probe_git():136] Probing git
+2024-01-28 01:44:58,477 DEBUG   HandlerThread:9512 [system_info.py:_probe_git():144] Probing git done
+2024-01-28 01:44:58,477 DEBUG   HandlerThread:9512 [system_info.py:probe():199] Probing system done
+2024-01-28 01:44:58,477 DEBUG   HandlerThread:9512 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.5', 'heartbeatAt': '2024-01-27T20:14:58.368739', 'startedAt': '2024-01-27T20:14:56.343330', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'f:\\backup-kali\\Hackathons\\ViduraAI\\mlmodel\\train.py', 'codePathLocal': 'mlmodel\\train.py', 'codePath': 'mlmodel\\train.py', 'git': {'remote': 'git@github.com:4darsh-Dev/ViduraAI-hackjnu3.0.git', 'commit': 'd1a825716c82ffac0ae08426dbdd680247e7c314'}, 'email': 'adarshmaurya9415@gmail.com', 'root': 'F:/backup-kali/Hackathons/ViduraAI', 'host': 'Kali', 'username': '4darsh-Dev', 'executable': 'F:\\backup-kali\\Hackathons\\ViduraAI\\myenv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1910.0, 'min': 0.0, 'max': 2112.0}, 'cpu_freq_per_core': [{'current': 1910.0, 'min': 0.0, 'max': 2112.0}], 'disk': {'/': {'total': 151.62499618530273, 'used': 18.987625122070312}}, 'memory': {'total': 15.882301330566406}}
+2024-01-28 01:44:58,477 INFO    HandlerThread:9512 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-28 01:44:58,477 INFO    HandlerThread:9512 [system_monitor.py:probe():227] Publishing system info
+2024-01-28 01:44:58,478 INFO    HandlerThread:9512 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-28 01:44:58,499 DEBUG   SenderThread:9512 [sender.py:send():382] send: files
+2024-01-28 01:44:58,499 INFO    SenderThread:9512 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-01-28 01:44:58,515 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: python_packages
+2024-01-28 01:44:58,515 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: python_packages
+2024-01-28 01:44:58,515 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 01:44:58,515 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 01:44:58,515 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 01:44:58,842 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_created():271] file/dir created: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\wandb-metadata.json
+2024-01-28 01:44:58,842 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_created():271] file/dir created: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\requirements.txt
+2024-01-28 01:44:58,887 DEBUG   SenderThread:9512 [sender.py:send():382] send: telemetry
+2024-01-28 01:44:58,887 DEBUG   SenderThread:9512 [sender.py:send():382] send: telemetry
+2024-01-28 01:44:58,887 DEBUG   SenderThread:9512 [sender.py:send():382] send: telemetry
+2024-01-28 01:44:59,851 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_created():271] file/dir created: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\output.log
+2024-01-28 01:45:00,733 INFO    wandb-upload_0:9512 [upload_job.py:push():131] Uploaded file C:\Users\LENOVO\AppData\Local\Temp\tmp35sdsrhywandb\wbhf0p8y-wandb-metadata.json
+2024-01-28 01:45:01,103 DEBUG   SenderThread:9512 [sender.py:send():382] send: exit
+2024-01-28 01:45:01,103 INFO    SenderThread:9512 [sender.py:send_exit():589] handling exit code: 1
+2024-01-28 01:45:01,103 INFO    SenderThread:9512 [sender.py:send_exit():591] handling runtime: 2
+2024-01-28 01:45:01,104 INFO    SenderThread:9512 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-28 01:45:01,104 INFO    SenderThread:9512 [sender.py:send_exit():597] send defer
+2024-01-28 01:45:01,104 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,104 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-28 01:45:01,105 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,105 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-28 01:45:01,105 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 1
+2024-01-28 01:45:01,105 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,105 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-28 01:45:01,106 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,106 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-28 01:45:01,106 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 2
+2024-01-28 01:45:01,106 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,106 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-28 01:45:01,106 INFO    HandlerThread:9512 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-28 01:45:01,106 DEBUG   SystemMonitor:9512 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-28 01:45:01,107 DEBUG   SystemMonitor:9512 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-28 01:45:01,107 INFO    HandlerThread:9512 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-28 01:45:01,107 DEBUG   SystemMonitor:9512 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-28 01:45:01,107 INFO    HandlerThread:9512 [interfaces.py:finish():202] Joined disk monitor
+2024-01-28 01:45:01,108 INFO    HandlerThread:9512 [interfaces.py:finish():202] Joined memory monitor
+2024-01-28 01:45:01,108 INFO    HandlerThread:9512 [interfaces.py:finish():202] Joined network monitor
+2024-01-28 01:45:01,108 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,108 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-28 01:45:01,108 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 3
+2024-01-28 01:45:01,108 DEBUG   SenderThread:9512 [sender.py:send():382] send: stats
+2024-01-28 01:45:01,109 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,109 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-28 01:45:01,109 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,109 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-28 01:45:01,109 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 4
+2024-01-28 01:45:01,109 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,109 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-28 01:45:01,110 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,110 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-28 01:45:01,110 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 5
+2024-01-28 01:45:01,110 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,110 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-28 01:45:01,110 DEBUG   SenderThread:9512 [sender.py:send():382] send: summary
+2024-01-28 01:45:01,111 INFO    SenderThread:9512 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-01-28 01:45:01,111 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,111 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-28 01:45:01,111 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 6
+2024-01-28 01:45:01,112 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,112 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-28 01:45:01,112 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,112 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-28 01:45:01,117 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 01:45:01,500 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 7
+2024-01-28 01:45:01,500 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:01,500 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-28 01:45:01,500 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:01,500 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-28 01:45:01,870 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\config.yaml
+2024-01-28 01:45:01,870 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\output.log
+2024-01-28 01:45:01,870 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_created():271] file/dir created: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\wandb-summary.json
+2024-01-28 01:45:02,108 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:02,914 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 8
+2024-01-28 01:45:02,914 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:02,914 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:02,914 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-28 01:45:02,914 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:02,914 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-28 01:45:02,914 INFO    SenderThread:9512 [job_builder.py:build():296] Attempting to build job artifact
+2024-01-28 01:45:02,914 INFO    SenderThread:9512 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-01-28 01:45:02,984 INFO    SenderThread:9512 [job_builder.py:build():402] adding wandb-job metadata file
+2024-01-28 01:45:03,000 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 9
+2024-01-28 01:45:03,000 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:03,000 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-28 01:45:03,000 DEBUG   SenderThread:9512 [sender.py:send():382] send: artifact
+2024-01-28 01:45:03,110 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:03,884 INFO    Thread-16 :9512 [dir_watcher.py:_on_file_modified():288] file/dir modified: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\output.log
+2024-01-28 01:45:05,890 INFO    wandb-upload_0:9512 [upload_job.py:push():89] Uploaded file C:\Users\LENOVO\AppData\Local\wandb\wandb\artifacts\staging\tmp4554586v
+2024-01-28 01:45:06,109 INFO    wandb-upload_1:9512 [upload_job.py:push():89] Uploaded file C:\Users\LENOVO\AppData\Local\wandb\wandb\artifacts\staging\tmpsckklllt
+2024-01-28 01:45:07,934 INFO    SenderThread:9512 [sender.py:send_artifact():1494] sent artifact job-git_github.com_4darsh-Dev_ViduraAI-hackjnu3.0.git_mlmodel_train.py - {'id': 'QXJ0aWZhY3Q6NzA1MDgxMzg3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNDM4NTk0MA==', 'latestArtifact': None}}
+2024-01-28 01:45:07,934 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:07,934 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-28 01:45:07,934 INFO    SenderThread:9512 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-28 01:45:07,934 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 01:45:08,161 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():388] scan: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():402] scan save: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\config.yaml config.yaml
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():402] scan save: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\output.log output.log
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():402] scan save: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\requirements.txt requirements.txt
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():402] scan save: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\wandb-metadata.json wandb-metadata.json
+2024-01-28 01:45:08,908 INFO    SenderThread:9512 [dir_watcher.py:finish():402] scan save: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\wandb-summary.json wandb-summary.json
+2024-01-28 01:45:08,914 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 10
+2024-01-28 01:45:08,914 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:08,914 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:08,914 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-28 01:45:08,914 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:08,914 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-28 01:45:08,914 INFO    SenderThread:9512 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-28 01:45:09,174 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:09,174 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:09,637 INFO    wandb-upload_0:9512 [upload_job.py:push():131] Uploaded file F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\config.yaml
+2024-01-28 01:45:10,074 INFO    wandb-upload_3:9512 [upload_job.py:push():131] Uploaded file F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\wandb-summary.json
+2024-01-28 01:45:10,088 INFO    wandb-upload_1:9512 [upload_job.py:push():131] Uploaded file F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\output.log
+2024-01-28 01:45:10,176 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:10,176 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:10,531 INFO    wandb-upload_2:9512 [upload_job.py:push():131] Uploaded file F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\files\requirements.txt
+2024-01-28 01:45:10,742 INFO    Thread-15 (_thread_body):9512 [sender.py:transition_state():617] send defer: 11
+2024-01-28 01:45:10,742 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:10,742 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-28 01:45:10,743 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:10,743 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-28 01:45:10,743 INFO    SenderThread:9512 [file_pusher.py:join():181] waiting for file pusher
+2024-01-28 01:45:10,743 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 12
+2024-01-28 01:45:10,743 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:10,743 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-28 01:45:10,743 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:10,743 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-28 01:45:10,743 INFO    SenderThread:9512 [file_stream.py:finish():595] file stream finish called
+2024-01-28 01:45:11,040 INFO    SenderThread:9512 [file_stream.py:finish():599] file stream finish is done
+2024-01-28 01:45:11,040 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 13
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:11,040 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:11,040 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-28 01:45:11,040 INFO    SenderThread:9512 [sender.py:transition_state():617] send defer: 14
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 01:45:11,040 INFO    HandlerThread:9512 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send():382] send: final
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send():382] send: footer
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: defer
+2024-01-28 01:45:11,040 INFO    SenderThread:9512 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: server_info
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 01:45:11,040 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: job_info
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 01:45:11,040 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: server_info
+2024-01-28 01:45:11,350 DEBUG   SenderThread:9512 [sender.py:send_request():409] send_request: job_info
+2024-01-28 01:45:11,351 INFO    MainThread:9512 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-01-28 01:45:11,351 INFO    MainThread:9512 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-01-28 01:45:11,352 INFO    MainThread:9512 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-01-28 01:45:11,356 DEBUG   HandlerThread:9512 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-28 01:45:11,356 INFO    HandlerThread:9512 [handler.py:finish():869] shutting down handler
+2024-01-28 01:45:12,062 INFO    WriterThread:9512 [datastore.py:close():296] close: F:\backup-kali\Hackathons\ViduraAI\wandb\run-20240128_014456-o0cru26b\run-o0cru26b.wandb
+2024-01-28 01:45:12,357 INFO    SenderThread:9512 [sender.py:finish():1572] shutting down sender
+2024-01-28 01:45:12,358 INFO    SenderThread:9512 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-28 01:45:12,358 INFO    SenderThread:9512 [file_pusher.py:join():181] waiting for file pusher
