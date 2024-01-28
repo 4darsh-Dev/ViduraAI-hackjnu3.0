@@ -1,0 +1,21 @@
+html {
+  height: 100vh;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+}
+.box {
+  background-color: wheat;
+  border: 2px solid black;
+  height: 15rem;
+  width: 10rem;
+}
+.active {
+  transform: scale(1.5);
+}
